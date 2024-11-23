@@ -1,0 +1,29 @@
+$font-PlayFairDisplay: "Playfair Display", serif; /*titulos y Subtitulos*/
+$font-Raleway: "Raleway", sans-serif; /*enlaces*/
+$font-DMSerifDisplay: "DM Serif Display", serif; /*Nombre del Hotel*/
+$font-Merriweather: "Merriweather", serif; /*texto comun*/
+$font-Glock: "Gloock", serif; /*textos principales*/
+$font-OpenSans: "Open Sans", sans-serif; /*Enlaces*/
+
+$color-negro: rgba(0, 0, 0, 1); /* Negro */
+$color-negro-claro: rgba(34, 34, 34, 1); /* Un tono más claro de negro */
+$color-gris-oscuro: rgba(69, 69, 69, 1); /* Gris oscuro */
+$color-gris-medio: rgb(153, 146, 146); /* Gris medio */
+$color-gris-claro: rgba(243, 235, 235, 0.75); /* Gris claro */
+$color-booking: rgb(209, 206, 206);
+$color-icons: rgb(64, 64, 97);
+$color-fondo1: rgba(234, 240, 240,0.5);
+
+
+.d-hide {
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+

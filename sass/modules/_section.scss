@@ -1,0 +1,281 @@
+.section1{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    &__center{
+        width: 90%;
+        height: 80%;
+        background-image: url(/img/servicio1.jpg);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        &__text{
+            background-color: $color-gris-claro;
+            width: 30%;
+            height: 35%;
+            h2{
+                font-size: 30px;
+                margin-bottom: 1rem;
+                margin-top: 2rem;
+            }
+            p{
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+            }
+            a{
+                color:rgb(113, 113, 217);
+            }
+            a:hover{
+                color:rgb(54, 55, 57);
+            }
+            @media only screen and (max-width: 991px){
+                height: 40%;
+                width: 40%;
+                h2{
+                    font-size: 40px;
+                    margin-bottom: 1rem;
+                    margin-top: 2rem;
+                }
+                p{
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+                    font-size: 1.1rem;
+                }
+                span{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+.section2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__center{
+        width: 80%;
+        height: 80%;
+        &__top{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(228, 228, 221); 
+            &__title{
+                height: 100%;
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span{
+                    font-size: 2rem;
+                    font-family: $font-PlayFairDisplay;
+                }
+                @media only screen and (max-width: 1025px) {
+                    width: 35%;
+                    padding-left: 2rem;
+                }
+                @media only screen and (max-width: 769px) {
+                    width: 45%;
+                    padding-left: 1.4rem;
+                }
+                @media only screen and (max-width: 426px) {
+                   
+                }
+                @media only screen and (max-width: 376px) {
+                  
+                }
+                @media only screen and (max-width: 321px) {
+                  
+                }
+            }
+            &__movementArrows{
+                height: 100%;
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                margin-right: 30px;
+                gap: 30px;
+                @media only screen and (max-width: 991px){
+                    margin-right: 60px;
+                }
+                span{
+                    font-family: $font-Raleway;
+                }
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+        &__bottom{
+            height: 80%;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: rgb(241, 241, 237);
+            text-align: center;
+            &__hab1{
+                height: 70%;
+                width: 20%;
+                background-image: url(/img/familiar.jpg);
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: end;
+                @media only screen and (max-width: 991px){
+                    width: 25%;
+                }
+                a {
+                    height:12%;
+                    width: 100%;
+                    background-color:$color-negro-claro ;
+                    color: white;
+                    font-family:$font-PlayFairDisplay;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                i{
+                    margin-top: 5px;
+                    font-size: 15px;
+                }
+            }
+            &__hab2{
+                height: 70%;
+                width: 20%;
+                background-image: url(/img/matrimonial.jpg);
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: end;
+                @media only screen and (max-width: 991px){
+                    width: 25%;
+                }
+                a {
+                    height:12%;
+                    width: 100%;
+                    background-color:$color-negro-claro ;
+                    color: white;
+                    font-family:$font-PlayFairDisplay;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                i{
+                    margin-top: 5px;
+                    font-size: 15px;
+                }
+            }
+            &__hab3{
+                height: 70%;
+                width: 20%;
+                background-image: url(/img/suite.webp);
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: end;
+                @media only screen and (max-width: 991px){
+                    width: 25%;
+                }
+                a {
+                    height:12%;
+                    width: 100%;
+                    background-color:$color-negro-claro ;
+                    color: white;
+                    font-family:$font-PlayFairDisplay;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                i{
+                    margin-top: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+        a:hover{
+            color:rgb(0, 102, 255);
+        }
+        @media only screen and (max-width: 991px){
+            width: 100%;
+        }
+    }
+}
+.section3{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-fondo1;
+    gap: 5rem;
+    &__left{
+        height: 60%;
+        width: 30%;
+        &__title{
+            height: 50%;
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__description{
+            height: 50%;
+            font-size: 1rem;
+            flex-direction: column;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            span{
+                font-family: $font-Merriweather;
+            }
+            p{
+                font-family: $font-Raleway;
+            }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1023px){
+            width: 40%;
+        }
+    }
+    &__right{
+        height: auto;
+        width: auto;
+        @media only screen and (max-width: 1025px) {
+            
+        }
+        @media only screen and (max-width: 769px) {
+            iframe{
+                width: 250px;
+                height: 250px;
+             }
+        }
+        @media only screen and (max-width: 426px) {
+             iframe{
+                width: 40px;
+                height: 40px;
+             }
+        }
+        @media only screen and (max-width: 376px) {
+            
+        }
+        @media only screen and (max-width: 321px) {
+            
+        }
+    }
+}
